@@ -1,0 +1,39 @@
+body * {
+    box-sizing: border-box
+  }  
+  .wrapper {
+    width: 800px;
+    min-height: 600px;
+    margin: 0 auto;    
+    padding: 36px 0;
+  }
+
+#view,
+#area {
+    height: 150px;
+    width: 500px;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#view {
+    padding: 2px;
+    border: 1px solid yellowgreen;
+}
+
+#area {
+    border: 2px groove green;
+    padding: 0px;
+    display: none;
+}
+
+#area:focus {
+    outline: none;
+}
+
+li {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
